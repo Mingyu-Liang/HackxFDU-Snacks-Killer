@@ -7,7 +7,7 @@
             android:id="@+id/hintView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="满减+配送费"
+            android:text="起送费_配送费_满减"
             android:textSize="30dp"
             android:gravity="center"
             android:background="@color/backResColor"/>

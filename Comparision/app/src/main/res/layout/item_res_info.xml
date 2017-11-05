@@ -18,13 +18,13 @@
             <ImageView
                 android:id="@+id/resImage"
                 android:layout_width="60dp"
-                android:layout_height="12dp"
+                android:layout_height="1dp"
                 />
 
             <TextView
                 android:id="@+id/resName"
                 android:layout_width="60dp"
-                android:layout_height="71dp"
+                android:layout_height="131dp"
                 android:text=""
                 android:gravity="center"/>
 

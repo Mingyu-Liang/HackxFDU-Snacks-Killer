@@ -20,14 +20,14 @@
             <ImageView
                 android:id="@+id/dishImage"
                 android:layout_width="60dp"
-                android:layout_height="18dp"
+                android:layout_height="1dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true" />
 
             <TextView
                 android:id="@+id/dishName"
                 android:layout_width="60dp"
-                android:layout_height="64dp"
+                android:layout_height="85dp"
                 android:gravity="center"
                 android:text="" />
 

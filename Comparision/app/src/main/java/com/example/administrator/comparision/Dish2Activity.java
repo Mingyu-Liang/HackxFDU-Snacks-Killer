@@ -86,7 +86,7 @@ public class Dish2Activity extends AppCompatActivity {
             if (appNames.size() < 3) {
                 appNames.add(strs[0]);
                 String str = new String();
-                for (int j = 1; j < 4; ++j) str += strs[j];
+                str+=strs[0]+"\n起送价"+strs[1]+"配送费"+strs[2]+"满减" + strs[3];
                 if (appNames.size() == 1) firstResInfo.setText(str);
                 if (appNames.size() == 2) secondResInfo.setText(str);
                 if (appNames.size() == 3) thirdResInfo.setText(str);
@@ -143,7 +143,7 @@ public class Dish2Activity extends AppCompatActivity {
             try {
                 inputStream.close();
                 inputStreamReader.close();
-                Toast.makeText(Dish2Activity.this, "Close Success!s", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(Dish2Activity.this, "Close Success!s", Toast.LENGTH_SHORT).show();
             } catch(Exception e) {
                 Toast.makeText(Dish2Activity.this, "Close Filed!s", Toast.LENGTH_SHORT).show();
             }

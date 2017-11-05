@@ -62,8 +62,6 @@ public class ResActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         appNames = bundle.getStringArrayList("appNames");
-        for (int i = 0; i < appNames.size(); ++i)
-            Toast.makeText(ResActivity.this, appNames.get(i), Toast.LENGTH_SHORT).show();
         String appName = new String();
         appName += appNames.get(0);
         for (int i = 1; i < appNames.size(); ++i)
@@ -107,7 +105,7 @@ public class ResActivity extends AppCompatActivity {
                 continue;
             }
             BufferedReader reader = new BufferedReader(inputStreamReader);
-            Toast.makeText(ResActivity.this, appName + ".txt", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(ResActivity.this, appName + ".txt", Toast.LENGTH_SHORT).show();
             try {
                 int j = 0, k = 0;
                 String []strs = new String[3];
