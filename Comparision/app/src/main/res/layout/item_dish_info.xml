@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:id="@+id/dishImage"
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/dishName"
+                android:layout_width="60dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/dishInFirstRes"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text=""
+                android:gravity="center"
+                android:background="@color/firstResColor"/>
+
+            <TextView
+                android:id="@+id/dishInSecondRes"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text=""
+                android:gravity="center"
+                android:background="@color/secondResColor"/>
+
+            <TextView
+                android:id="@+id/dishInThirdRes"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text=""
+                android:gravity="center"
+                android:background="@color/thirdResColor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

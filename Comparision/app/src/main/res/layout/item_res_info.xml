@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:id="@+id/resImage"
+                android:layout_width="60dp"
+                android:layout_height="12dp"
+                />
+
+            <TextView
+                android:id="@+id/resName"
+                android:layout_width="60dp"
+                android:layout_height="71dp"
+                android:text=""
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/firstRes"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text=""
+                android:gravity="center"
+                android:background="@color/firstResColor"/>
+
+            <TextView
+                android:id="@+id/secondRes"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text=""
+                android:gravity="center"
+                android:background="@color/secondResColor"/>
+
+            <TextView
+                android:id="@+id/thirdRes"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text=""
+                android:gravity="center"
+                android:background="@color/thirdResColor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

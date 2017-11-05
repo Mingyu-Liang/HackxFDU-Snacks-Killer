@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/iv1_cmp_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp" />
+
+        <ImageView
+            android:id="@+id/iv2_cmp_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignTop="@+id/iv1_cmp_icon"
+            android:layout_toEndOf="@+id/iv1_cmp_icon" />
+
+        <ImageView
+            android:id="@+id/iv3_cmp_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignTop="@+id/iv2_cmp_icon"
+            android:layout_toEndOf="@+id/iv2_cmp_icon" />
+
+        <ImageView
+            android:id="@+id/iv4_cmp_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignTop="@+id/iv3_cmp_icon"
+            android:layout_toEndOf="@+id/iv3_cmp_icon" />
+
+        <ImageView
+            android:id="@+id/iv5_cmp_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignTop="@+id/iv4_cmp_icon"
+            android:layout_toEndOf="@+id/iv4_cmp_icon" />
+
+    </RelativeLayout>
+</LinearLayout>
